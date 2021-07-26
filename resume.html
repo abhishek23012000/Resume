@@ -9,6 +9,11 @@
       integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
@@ -29,9 +34,7 @@
               <li>
                 <a href="#skills"> Skills </a>
               </li>
-              <li>
-                <a href="#experience">Experience</a>
-              </li>
+             
               <li>
                 <a href="#education">Education</a>
               </li>
@@ -55,9 +58,7 @@
           <li>
             <a href="#skills"> Skills </a>
           </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
+         
           <li>
             <a href="#education">Education</a>
           </li>
@@ -72,7 +73,7 @@
 
       <div id="name-social-container">
         <div class="text-center">
-          <h1 id="my-name">Abhishek Raut</h1>
+          <h1 class="my-name ml2">Abhishek Raut</h1>
         </div>
         <div>
           <ul class="no-list-style horizontal-list text-center social-icons">
@@ -86,11 +87,7 @@
                 <i class="fab fa-github"></i>
               </a>
             </li>
-            <li>
-              <a href="#">
-                <i class="fab fa-google-plus-g"></i>
-              </a>
-            </li>
+            
             <li>
               <a href="https://www.facebook.com/profile.php?id=100008228163457">
                 <i class="fab fa-facebook-f"></i>
@@ -188,10 +185,18 @@
               </div>
             </div>
           </div>
+        
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span>React </span>
+              </div>
+            </div>
+          </div>
           <div class="skill-progress">
             <div class="eighty-percent mb-light-purple">
               <div class="skill-name">
-                <span> MongoDB </span>
+                <span> Redux </span>
               </div>
             </div>
           </div>
@@ -272,7 +277,7 @@
                            <a href="https://github.com/abhishek23012000/QuestionAnswerWebsite"  target="_blank">QuestionAnswerWebsite
                             </a>
                           
-                            <p class="letter">  <i class="fas fa-angle-double-right"></i> 
+                            <p class="letter">   
                               In this website you can ask questions, answer questions and follow users. Also you can talk with the users who are following you.
                                    </p>
 
@@ -280,7 +285,7 @@
                        <li>
                        
                         <a href="https://github.com/abhishek23012000/TodoList"  target="_blank">TodoList </a>
-                        <p class="letter">  <i class="fas fa-angle-double-right"></i> 
+                        <p class="letter">   
                           TodoList website is a kind of website that generally used to maintain our day-to day tasks.
                           In this website you can add new task ,view all the tasks and delete any ToDo from the list of Todos.
                         </p>
@@ -289,7 +294,7 @@
                     <li>
                        
                         <a href="https://github.com/abhishek23012000/covid-19-news"  target="_blank">Covid-19 News </a>
-                        <p class="letter">  <i class="fas fa-angle-double-right"></i> 
+                        <p class="letter">  
                           You can check all the latest news and  can track total covid-19 cases, total deaths, total active as well as  recovered cases.
                         </p>
                           
@@ -299,9 +304,24 @@
 
                     
                    </ol>
+                  
               </div>
             
 
+      </section>
+
+      <section>
+        <center>
+                  
+          <h5>Resume :</h5>
+          <p>Click here to download it</p>
+          <a href="./Abhishek.pdf" download>
+            <i
+              class="fa fa-file-pdf-o"
+              style="font-size: 48px; color: red"
+            ></i>
+          </a>
+        </center>
       </section>
 
       <section id="contact">
@@ -374,5 +394,6 @@
         </div>
       </section>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
